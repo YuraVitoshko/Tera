@@ -2174,10 +2174,6 @@ body {
     gap: 2rem;
   }
 
-  .main-page__body {
-    padding-top: 1.25rem;
-  }
-
   .main-page__title {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -2685,10 +2681,6 @@ body {
   .main-page__container {
     padding-left: 2.375rem;
     padding-right: 2.375rem;
-  }
-
-  .main-page__body {
-    padding-top: 0.625rem;
   }
 
   .main-page__title {
@@ -3288,7 +3280,7 @@ body {
   }
 
   .main-page__body {
-    padding-top: 1.875rem;
+    padding-top: 0.625rem;
   }
 
   .main-page__body {
@@ -3563,15 +3555,15 @@ body {
     }
 }
 
-@supports (padding-top: clamp( 1.875rem , 1.1279880478rem  +  3.187250996vw , 4.375rem )) {
+@supports (padding-top: clamp( 0.625rem , -0.4955179283rem  +  4.780876494vw , 4.375rem )) {
     .main-page__body {
-      padding-top: clamp( 1.875rem , 1.1279880478rem  +  3.187250996vw , 4.375rem );
+      padding-top: clamp( 0.625rem , -0.4955179283rem  +  4.780876494vw , 4.375rem );
     }
 }
 
-@supports not (padding-top: clamp( 1.875rem , 1.1279880478rem  +  3.187250996vw , 4.375rem )) {
+@supports not (padding-top: clamp( 0.625rem , -0.4955179283rem  +  4.780876494vw , 4.375rem )) {
     .main-page__body {
-      padding-top: calc(1.875rem + 2.5 * (100vw - 23.4375rem) / 78.4375);
+      padding-top: calc(0.625rem + 3.75 * (100vw - 23.4375rem) / 78.4375);
     }
 }
 
