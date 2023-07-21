@@ -609,7 +609,7 @@ body {
   z-index: 5;
   bottom: 1.875rem;
   right: 1.875rem;
-  width: 1.5625rem;
+  width: 2.5rem;
   cursor: pointer;
 }
 
@@ -3290,6 +3290,7 @@ body {
     width: 100%;
     -webkit-animation: button 1.5s linear;
             animation: button 1.5s linear;
+    margin-top: -1.25rem;
   }
 
   .main-page__image-block-ibg {
